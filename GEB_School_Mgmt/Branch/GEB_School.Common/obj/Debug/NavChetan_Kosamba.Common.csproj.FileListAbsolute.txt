@@ -1,0 +1,14 @@
+D:\Projects\Navchetan\Source\NavChetan_Kosamba.Common\bin\Debug\NavChetan_Kosamba.Common.dll
+D:\Projects\Navchetan\Source\NavChetan_Kosamba.Common\bin\Debug\NavChetan_Kosamba.Common.pdb
+D:\Projects\Navchetan\Source\NavChetan_Kosamba.Common\bin\Debug\NavChetan_Kosamba.DataAccess.dll
+D:\Projects\Navchetan\Source\NavChetan_Kosamba.Common\bin\Debug\NavChetan_Kosamba.DataAccess.pdb
+D:\Projects\Navchetan\Source\NavChetan_Kosamba.Common\obj\Debug\NavChetan_Kosamba.Common.csprojResolveAssemblyReference.cache
+D:\Projects\Navchetan\Source\NavChetan_Kosamba.Common\obj\Debug\NavChetan_Kosamba.Common.dll
+D:\Projects\Navchetan\Source\NavChetan_Kosamba.Common\obj\Debug\NavChetan_Kosamba.Common.pdb
+E:\Projects\NavChetan-23072018\Navchetan\Source\NavChetan_Kosamba.Common\bin\Debug\NavChetan_Kosamba.Common.dll
+E:\Projects\NavChetan-23072018\Navchetan\Source\NavChetan_Kosamba.Common\bin\Debug\NavChetan_Kosamba.Common.pdb
+E:\Projects\NavChetan-23072018\Navchetan\Source\NavChetan_Kosamba.Common\bin\Debug\NavChetan_Kosamba.DataAccess.dll
+E:\Projects\NavChetan-23072018\Navchetan\Source\NavChetan_Kosamba.Common\bin\Debug\NavChetan_Kosamba.DataAccess.pdb
+E:\Projects\NavChetan-23072018\Navchetan\Source\NavChetan_Kosamba.Common\obj\Debug\NavChetan_Kosamba.Common.csprojResolveAssemblyReference.cache
+E:\Projects\NavChetan-23072018\Navchetan\Source\NavChetan_Kosamba.Common\obj\Debug\NavChetan_Kosamba.Common.dll
+E:\Projects\NavChetan-23072018\Navchetan\Source\NavChetan_Kosamba.Common\obj\Debug\NavChetan_Kosamba.Common.pdb

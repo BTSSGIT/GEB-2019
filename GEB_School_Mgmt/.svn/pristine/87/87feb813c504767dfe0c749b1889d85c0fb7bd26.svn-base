@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Documents", "01. Documents", "{2443B7A9-6E04-4E44-9747-C08EB5600CF8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Projects", "02. Projects", "{95022DD4-F89A-4A49-B2EC-C91124F738DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. SQL Scripts", "03. SQL Scripts", "{E2479636-0FC7-4A17-82BD-69599E80A234}"
+	ProjectSection(SolutionItems) = preProject
+		SQL Scripts\Navchetan.bak = SQL Scripts\Navchetan.bak
+		SQL Scripts\NavchetanScript.sql = SQL Scripts\NavchetanScript.sql
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GEB_School", "GEB_School\GEB_School.csproj", "{8144EBEA-204B-404B-A664-1A310B68A03E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GEB_School.BL", "GEB_School.BL\GEB_School.BL.csproj", "{58C73556-C076-4C6D-9169-B1ABA2E6B86A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GEB_School.BO", "GEB_School.BO\GEB_School.BO.csproj", "{23D8C324-9F70-4AC0-AA6A-2C95153F9D28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GEB_School.Common", "GEB_School.Common\GEB_School.Common.csproj", "{BF708ADB-0071-4B6B-B3BA-5FCDECFC4C00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GEB_School.DataAccess", "GEB_School.DataAccess\GEB_School.DataAccess.csproj", "{7EDB82AA-2EBF-43A9-B034-85CA6F66A4DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8144EBEA-204B-404B-A664-1A310B68A03E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8144EBEA-204B-404B-A664-1A310B68A03E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8144EBEA-204B-404B-A664-1A310B68A03E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8144EBEA-204B-404B-A664-1A310B68A03E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58C73556-C076-4C6D-9169-B1ABA2E6B86A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58C73556-C076-4C6D-9169-B1ABA2E6B86A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58C73556-C076-4C6D-9169-B1ABA2E6B86A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58C73556-C076-4C6D-9169-B1ABA2E6B86A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23D8C324-9F70-4AC0-AA6A-2C95153F9D28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23D8C324-9F70-4AC0-AA6A-2C95153F9D28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23D8C324-9F70-4AC0-AA6A-2C95153F9D28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23D8C324-9F70-4AC0-AA6A-2C95153F9D28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF708ADB-0071-4B6B-B3BA-5FCDECFC4C00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF708ADB-0071-4B6B-B3BA-5FCDECFC4C00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF708ADB-0071-4B6B-B3BA-5FCDECFC4C00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF708ADB-0071-4B6B-B3BA-5FCDECFC4C00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EDB82AA-2EBF-43A9-B034-85CA6F66A4DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EDB82AA-2EBF-43A9-B034-85CA6F66A4DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EDB82AA-2EBF-43A9-B034-85CA6F66A4DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EDB82AA-2EBF-43A9-B034-85CA6F66A4DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8144EBEA-204B-404B-A664-1A310B68A03E} = {95022DD4-F89A-4A49-B2EC-C91124F738DC}
+		{58C73556-C076-4C6D-9169-B1ABA2E6B86A} = {95022DD4-F89A-4A49-B2EC-C91124F738DC}
+		{23D8C324-9F70-4AC0-AA6A-2C95153F9D28} = {95022DD4-F89A-4A49-B2EC-C91124F738DC}
+		{BF708ADB-0071-4B6B-B3BA-5FCDECFC4C00} = {95022DD4-F89A-4A49-B2EC-C91124F738DC}
+		{7EDB82AA-2EBF-43A9-B034-85CA6F66A4DF} = {95022DD4-F89A-4A49-B2EC-C91124F738DC}
+	EndGlobalSection
+EndGlobal

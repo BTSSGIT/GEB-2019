@@ -1,0 +1,44 @@
+E:\Projects\GEB-SchoolProject\GEB_SCHOOL\GEB_School_Vadodara\GEB_School.BL\obj\Debug\NavChetan_Kosamba.BL.dll
+E:\Projects\GEB-SchoolProject\GEB_SCHOOL\GEB_School_Vadodara\GEB_School.BL\obj\Debug\NavChetan_Kosamba.BL.pdb
+E:\Projects\GEB-SchoolProject\GEB_SCHOOL\GEB_School_Vadodara\GEB_School.BL\bin\Debug\NavChetan_Kosamba.BL.dll
+E:\Projects\GEB-SchoolProject\GEB_SCHOOL\GEB_School_Vadodara\GEB_School.BL\bin\Debug\NavChetan_Kosamba.BL.pdb
+E:\Projects\GEB-SchoolProject\GEB_SCHOOL\GEB_School_Vadodara\GEB_School.BL\bin\Debug\NavChetan_Kosamba.BO.dll
+E:\Projects\GEB-SchoolProject\GEB_SCHOOL\GEB_School_Vadodara\GEB_School.BL\bin\Debug\NavChetan_Kosamba.Common.dll
+E:\Projects\GEB-SchoolProject\GEB_SCHOOL\GEB_School_Vadodara\GEB_School.BL\bin\Debug\NavChetan_Kosamba.DataAccess.dll
+E:\Projects\GEB-SchoolProject\GEB_SCHOOL\GEB_School_Vadodara\GEB_School.BL\bin\Debug\NavChetan_Kosamba.BO.pdb
+E:\Projects\GEB-SchoolProject\GEB_SCHOOL\GEB_School_Vadodara\GEB_School.BL\bin\Debug\NavChetan_Kosamba.Common.pdb
+E:\Projects\GEB-SchoolProject\GEB_SCHOOL\GEB_School_Vadodara\GEB_School.BL\bin\Debug\NavChetan_Kosamba.DataAccess.pdb
+E:\Projects\GEB-SchoolProject\GEB_SCHOOL\GEB_School_Vadodara\GEB_School.BL\obj\Debug\GEB_School.BL.csprojResolveAssemblyReference.cache
+E:\parth  projects\GEB  school\Branch\Source\GEB_School.BL\bin\Debug\NavChetan_Kosamba.BL.dll
+E:\parth  projects\GEB  school\Branch\Source\GEB_School.BL\bin\Debug\NavChetan_Kosamba.BL.pdb
+E:\parth  projects\GEB  school\Branch\Source\GEB_School.BL\bin\Debug\NavChetan_Kosamba.BO.dll
+E:\parth  projects\GEB  school\Branch\Source\GEB_School.BL\bin\Debug\NavChetan_Kosamba.Common.dll
+E:\parth  projects\GEB  school\Branch\Source\GEB_School.BL\bin\Debug\NavChetan_Kosamba.DataAccess.dll
+E:\parth  projects\GEB  school\Branch\Source\GEB_School.BL\bin\Debug\NavChetan_Kosamba.BO.pdb
+E:\parth  projects\GEB  school\Branch\Source\GEB_School.BL\bin\Debug\NavChetan_Kosamba.Common.pdb
+E:\parth  projects\GEB  school\Branch\Source\GEB_School.BL\bin\Debug\NavChetan_Kosamba.DataAccess.pdb
+E:\parth  projects\GEB  school\Branch\Source\GEB_School.BL\obj\Debug\GEB_School.BL.csprojResolveAssemblyReference.cache
+E:\parth  projects\GEB  school\Branch\Source\GEB_School.BL\obj\Debug\NavChetan_Kosamba.BL.dll
+E:\parth  projects\GEB  school\Branch\Source\GEB_School.BL\obj\Debug\NavChetan_Kosamba.BL.pdb
+C:\Users\ER\Desktop\GEB School 2017\Branch\Source\GEB_School.BL\bin\Debug\NavChetan_Kosamba.BL.dll
+C:\Users\ER\Desktop\GEB School 2017\Branch\Source\GEB_School.BL\bin\Debug\NavChetan_Kosamba.BL.pdb
+C:\Users\ER\Desktop\GEB School 2017\Branch\Source\GEB_School.BL\bin\Debug\NavChetan_Kosamba.BO.dll
+C:\Users\ER\Desktop\GEB School 2017\Branch\Source\GEB_School.BL\bin\Debug\NavChetan_Kosamba.Common.dll
+C:\Users\ER\Desktop\GEB School 2017\Branch\Source\GEB_School.BL\bin\Debug\NavChetan_Kosamba.DataAccess.dll
+C:\Users\ER\Desktop\GEB School 2017\Branch\Source\GEB_School.BL\bin\Debug\NavChetan_Kosamba.BO.pdb
+C:\Users\ER\Desktop\GEB School 2017\Branch\Source\GEB_School.BL\bin\Debug\NavChetan_Kosamba.Common.pdb
+C:\Users\ER\Desktop\GEB School 2017\Branch\Source\GEB_School.BL\bin\Debug\NavChetan_Kosamba.DataAccess.pdb
+C:\Users\ER\Desktop\GEB School 2017\Branch\Source\GEB_School.BL\obj\Debug\GEB_School.BL.csprojResolveAssemblyReference.cache
+C:\Users\ER\Desktop\GEB School 2017\Branch\Source\GEB_School.BL\obj\Debug\NavChetan_Kosamba.BL.dll
+C:\Users\ER\Desktop\GEB School 2017\Branch\Source\GEB_School.BL\obj\Debug\NavChetan_Kosamba.BL.pdb
+C:\Users\ER\Desktop\GEB School 2019\GEB_School_Mgmt\Branch\GEB_School.BL\bin\Debug\NavChetan_Kosamba.BL.dll
+C:\Users\ER\Desktop\GEB School 2019\GEB_School_Mgmt\Branch\GEB_School.BL\bin\Debug\NavChetan_Kosamba.BL.pdb
+C:\Users\ER\Desktop\GEB School 2019\GEB_School_Mgmt\Branch\GEB_School.BL\bin\Debug\NavChetan_Kosamba.BO.dll
+C:\Users\ER\Desktop\GEB School 2019\GEB_School_Mgmt\Branch\GEB_School.BL\bin\Debug\NavChetan_Kosamba.Common.dll
+C:\Users\ER\Desktop\GEB School 2019\GEB_School_Mgmt\Branch\GEB_School.BL\bin\Debug\NavChetan_Kosamba.DataAccess.dll
+C:\Users\ER\Desktop\GEB School 2019\GEB_School_Mgmt\Branch\GEB_School.BL\bin\Debug\NavChetan_Kosamba.BO.pdb
+C:\Users\ER\Desktop\GEB School 2019\GEB_School_Mgmt\Branch\GEB_School.BL\bin\Debug\NavChetan_Kosamba.Common.pdb
+C:\Users\ER\Desktop\GEB School 2019\GEB_School_Mgmt\Branch\GEB_School.BL\bin\Debug\NavChetan_Kosamba.DataAccess.pdb
+C:\Users\ER\Desktop\GEB School 2019\GEB_School_Mgmt\Branch\GEB_School.BL\obj\Debug\GEB_School.BL.csprojResolveAssemblyReference.cache
+C:\Users\ER\Desktop\GEB School 2019\GEB_School_Mgmt\Branch\GEB_School.BL\obj\Debug\NavChetan_Kosamba.BL.dll
+C:\Users\ER\Desktop\GEB School 2019\GEB_School_Mgmt\Branch\GEB_School.BL\obj\Debug\NavChetan_Kosamba.BL.pdb

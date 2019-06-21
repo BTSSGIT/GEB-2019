@@ -1,0 +1,861 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>E:\parth  projects\GEBpublishTEST_21-06-2019</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Accounting/AccountGroup.aspx">
+      <publishTime>06/14/2019 13:57:20</publishTime>
+    </File>
+    <File Include="Accounting/AccountLogin.aspx">
+      <publishTime>06/14/2019 13:57:20</publishTime>
+    </File>
+    <File Include="Accounting/ContraEntry.aspx">
+      <publishTime>06/14/2019 13:57:20</publishTime>
+    </File>
+    <File Include="Accounting/GeneralLedger.aspx">
+      <publishTime>06/14/2019 13:57:20</publishTime>
+    </File>
+    <File Include="Accounting/Home.aspx">
+      <publishTime>06/14/2019 13:57:20</publishTime>
+    </File>
+    <File Include="Accounting/JournalEntry.aspx">
+      <publishTime>06/14/2019 13:57:20</publishTime>
+    </File>
+    <File Include="Accounting/Payment.aspx">
+      <publishTime>06/14/2019 13:57:20</publishTime>
+    </File>
+    <File Include="Accounting/Receipt.aspx">
+      <publishTime>06/14/2019 13:57:20</publishTime>
+    </File>
+    <File Include="Accounting/RptBalanceSheet.aspx">
+      <publishTime>06/14/2019 13:57:20</publishTime>
+    </File>
+    <File Include="Accounting/RptBankBook.aspx">
+      <publishTime>06/14/2019 13:57:20</publishTime>
+    </File>
+    <File Include="Accounting/RptCashbook.aspx">
+      <publishTime>06/14/2019 13:57:20</publishTime>
+    </File>
+    <File Include="Accounting/RptDayBook.aspx">
+      <publishTime>06/14/2019 13:57:20</publishTime>
+    </File>
+    <File Include="Accounting/RptGeneralLedger.aspx">
+      <publishTime>06/14/2019 13:57:20</publishTime>
+    </File>
+    <File Include="Accounting/RptJournalRegister.aspx">
+      <publishTime>06/14/2019 13:57:20</publishTime>
+    </File>
+    <File Include="Accounting/RptPnL.aspx">
+      <publishTime>06/14/2019 13:57:20</publishTime>
+    </File>
+    <File Include="Accounting/RptTrialBalance.aspx">
+      <publishTime>06/14/2019 13:57:20</publishTime>
+    </File>
+    <File Include="Accounting/SerialNo.aspx">
+      <publishTime>06/14/2019 13:57:20</publishTime>
+    </File>
+    <File Include="bin/AjaxControlToolkit.dll">
+      <publishTime>06/14/2019 13:56:41</publishTime>
+    </File>
+    <File Include="bin/AjaxMin.dll">
+      <publishTime>06/14/2019 13:56:34</publishTime>
+    </File>
+    <File Include="bin/ExcelPackage.dll">
+      <publishTime>06/14/2019 13:57:01</publishTime>
+    </File>
+    <File Include="bin/itextsharp.dll">
+      <publishTime>06/14/2019 13:56:35</publishTime>
+    </File>
+    <File Include="bin/log4net.dll">
+      <publishTime>06/14/2019 13:56:36</publishTime>
+    </File>
+    <File Include="bin/NavChetan_Kosamba.BL.dll">
+      <publishTime>06/21/2019 14:16:07</publishTime>
+    </File>
+    <File Include="bin/NavChetan_Kosamba.BO.dll">
+      <publishTime>06/21/2019 14:16:06</publishTime>
+    </File>
+    <File Include="bin/NavChetan_Kosamba.Common.dll">
+      <publishTime>06/21/2019 14:16:05</publishTime>
+    </File>
+    <File Include="bin/NavChetan_Kosamba.DataAccess.dll">
+      <publishTime>06/21/2019 14:16:04</publishTime>
+    </File>
+    <File Include="bin/NavChetan_Kosamba.dll">
+      <publishTime>06/21/2019 14:16:10</publishTime>
+    </File>
+    <File Include="bin/System.Spatial.dll">
+      <publishTime>03/26/2015 01:35:24</publishTime>
+    </File>
+    <File Include="Client.UI/BackUp.aspx">
+      <publishTime>06/14/2019 13:57:06</publishTime>
+    </File>
+    <File Include="Client.UI/ClassMaster.aspx">
+      <publishTime>06/14/2019 13:57:06</publishTime>
+    </File>
+    <File Include="Client.UI/ClasswiseStudentTemplate.aspx">
+      <publishTime>06/14/2019 13:57:05</publishTime>
+    </File>
+    <File Include="Client.UI/Class_Template.aspx">
+      <publishTime>06/14/2019 13:57:06</publishTime>
+    </File>
+    <File Include="Client.UI/Construnction.aspx">
+      <publishTime>06/14/2019 13:57:06</publishTime>
+    </File>
+    <File Include="Client.UI/DepartmentMaster.aspx">
+      <publishTime>06/14/2019 13:57:06</publishTime>
+    </File>
+    <File Include="Client.UI/DesignationMaster.aspx">
+      <publishTime>06/14/2019 13:57:06</publishTime>
+    </File>
+    <File Include="Client.UI/DisplayPriority.aspx">
+      <publishTime>06/14/2019 13:57:06</publishTime>
+    </File>
+    <File Include="Client.UI/DivisionTransfer.aspx">
+      <publishTime>06/14/2019 13:57:06</publishTime>
+    </File>
+    <File Include="Client.UI/DocumentMaster.aspx">
+      <publishTime>06/14/2019 13:57:05</publishTime>
+    </File>
+    <File Include="Client.UI/Employee.aspx">
+      <publishTime>06/14/2019 17:18:51</publishTime>
+    </File>
+    <File Include="Client.UI/EmployeeAttandence.aspx">
+      <publishTime>06/14/2019 13:57:06</publishTime>
+    </File>
+    <File Include="Client.UI/EmployeeDataImport.aspx">
+      <publishTime>06/14/2019 13:57:06</publishTime>
+    </File>
+    <File Include="Client.UI/FeeCollection.aspx">
+      <publishTime>06/14/2019 13:57:06</publishTime>
+    </File>
+    <File Include="Client.UI/FeesCancellation.aspx">
+      <publishTime>06/14/2019 13:57:06</publishTime>
+    </File>
+    <File Include="Client.UI/FeesCategoryMaster.aspx">
+      <publishTime>06/14/2019 13:57:05</publishTime>
+    </File>
+    <File Include="Client.UI/FeesGroup.aspx">
+      <publishTime>06/14/2019 13:57:06</publishTime>
+    </File>
+    <File Include="Client.UI/FileUpload.ashx">
+      <publishTime>06/14/2019 13:57:05</publishTime>
+    </File>
+    <File Include="Client.UI/GetImage.ashx">
+      <publishTime>06/14/2019 13:57:05</publishTime>
+    </File>
+    <File Include="Client.UI/Holiday.aspx">
+      <publishTime>06/14/2019 13:57:05</publishTime>
+    </File>
+    <File Include="Client.UI/ImageConversions.aspx">
+      <publishTime>06/14/2019 13:57:05</publishTime>
+    </File>
+    <File Include="Client.UI/LogOut.aspx">
+      <publishTime>06/14/2019 13:57:06</publishTime>
+    </File>
+    <File Include="Client.UI/MainSection.aspx">
+      <publishTime>06/14/2019 13:57:06</publishTime>
+    </File>
+    <File Include="Client.UI/Material.aspx">
+      <publishTime>06/14/2019 13:57:06</publishTime>
+    </File>
+    <File Include="Client.UI/MaterialGroup.aspx">
+      <publishTime>06/14/2019 13:57:06</publishTime>
+    </File>
+    <File Include="Client.UI/PageUnderConstruction.aspx">
+      <publishTime>06/14/2019 13:57:05</publishTime>
+    </File>
+    <File Include="Client.UI/PeriodMaster.aspx">
+      <publishTime>06/14/2019 13:57:06</publishTime>
+    </File>
+    <File Include="Client.UI/Purchase.aspx">
+      <publishTime>06/14/2019 13:57:06</publishTime>
+    </File>
+    <File Include="Client.UI/RoleMaster.aspx">
+      <publishTime>06/14/2019 13:57:05</publishTime>
+    </File>
+    <File Include="Client.UI/RoleRights.aspx">
+      <publishTime>06/14/2019 13:57:06</publishTime>
+    </File>
+    <File Include="Client.UI/SchoolDepartment.aspx">
+      <publishTime>06/14/2019 13:57:06</publishTime>
+    </File>
+    <File Include="Client.UI/SchoolDesignationMaster.aspx">
+      <publishTime>06/14/2019 13:57:06</publishTime>
+    </File>
+    <File Include="Client.UI/SchoolEmployee.aspx">
+      <publishTime>06/14/2019 13:57:06</publishTime>
+    </File>
+    <File Include="Client.UI/SchoolEmployeeAttendance.aspx">
+      <publishTime>06/14/2019 13:57:06</publishTime>
+    </File>
+    <File Include="Client.UI/SchoolHome.aspx">
+      <publishTime>06/14/2019 13:57:06</publishTime>
+    </File>
+    <File Include="Client.UI/SchoolMasterDetail.aspx">
+      <publishTime>06/14/2019 13:57:06</publishTime>
+    </File>
+    <File Include="Client.UI/SchoolMaterial.aspx">
+      <publishTime>06/14/2019 13:57:06</publishTime>
+    </File>
+    <File Include="Client.UI/SchoolPurchase.aspx">
+      <publishTime>06/14/2019 13:57:06</publishTime>
+    </File>
+    <File Include="Client.UI/SchoolReports.aspx">
+      <publishTime>06/17/2019 17:33:54</publishTime>
+    </File>
+    <File Include="Client.UI/SectionMaster.aspx">
+      <publishTime>06/14/2019 13:57:06</publishTime>
+    </File>
+    <File Include="Client.UI/Status.aspx">
+      <publishTime>06/14/2019 13:57:05</publishTime>
+    </File>
+    <File Include="Client.UI/StockUpdation.aspx">
+      <publishTime>06/14/2019 13:57:06</publishTime>
+    </File>
+    <File Include="Client.UI/StudentAttendence.aspx">
+      <publishTime>06/14/2019 13:57:05</publishTime>
+    </File>
+    <File Include="Client.UI/StudentDataImport.aspx">
+      <publishTime>06/14/2019 13:57:06</publishTime>
+    </File>
+    <File Include="Client.UI/StudentDetailMaster.aspx">
+      <publishTime>06/17/2019 11:46:16</publishTime>
+    </File>
+    <File Include="Client.UI/StudentPastEducationDetail.aspx">
+      <publishTime>06/14/2019 13:57:06</publishTime>
+    </File>
+    <File Include="Client.UI/StudentTemplate.aspx">
+      <publishTime>06/14/2019 13:57:06</publishTime>
+    </File>
+    <File Include="Client.UI/SubjectAssociation.aspx">
+      <publishTime>06/14/2019 13:57:06</publishTime>
+    </File>
+    <File Include="Client.UI/SubjectMaster.aspx">
+      <publishTime>06/14/2019 13:57:06</publishTime>
+    </File>
+    <File Include="Client.UI/TimeTable.aspx">
+      <publishTime>06/14/2019 13:57:06</publishTime>
+    </File>
+    <File Include="Client.UI/TrustHome.aspx">
+      <publishTime>06/14/2019 13:57:06</publishTime>
+    </File>
+    <File Include="Client.UI/TrustMaster.aspx">
+      <publishTime>06/14/2019 13:57:05</publishTime>
+    </File>
+    <File Include="Client.UI/TrustReports.aspx">
+      <publishTime>06/14/2019 13:57:06</publishTime>
+    </File>
+    <File Include="Client.UI/UOM.aspx">
+      <publishTime>06/14/2019 13:57:06</publishTime>
+    </File>
+    <File Include="Client.UI/UpgradeStudent.aspx">
+      <publishTime>06/14/2019 13:57:06</publishTime>
+    </File>
+    <File Include="Client.UI/Vendor.aspx">
+      <publishTime>06/14/2019 13:57:06</publishTime>
+    </File>
+    <File Include="Client.UI/Versioncontrol.aspx">
+      <publishTime>06/14/2019 13:57:06</publishTime>
+    </File>
+    <File Include="Client.UI/WebForm1.aspx">
+      <publishTime>06/14/2019 13:57:06</publishTime>
+    </File>
+    <File Include="Client.UI/WorkingDays.aspx">
+      <publishTime>06/14/2019 13:57:06</publishTime>
+    </File>
+    <File Include="CSS/ajaxCalender.css">
+      <publishTime>06/14/2019 13:57:20</publishTime>
+    </File>
+    <File Include="CSS/all.css">
+      <publishTime>06/14/2019 13:57:20</publishTime>
+    </File>
+    <File Include="CSS/Comman.css">
+      <publishTime>06/14/2019 13:57:20</publishTime>
+    </File>
+    <File Include="CSS/ddmenu.css">
+      <publishTime>06/14/2019 13:57:20</publishTime>
+    </File>
+    <File Include="CSS/default.css">
+      <publishTime>06/14/2019 13:57:19</publishTime>
+    </File>
+    <File Include="CSS/Jquery-CSS.css">
+      <publishTime>06/14/2019 13:57:20</publishTime>
+    </File>
+    <File Include="CSS/jquery-ui.css">
+      <publishTime>06/14/2019 13:57:20</publishTime>
+    </File>
+    <File Include="CSS/login.css">
+      <publishTime>06/14/2019 13:57:20</publishTime>
+    </File>
+    <File Include="CSS/main.css">
+      <publishTime>06/14/2019 13:57:20</publishTime>
+    </File>
+    <File Include="CSS/NewLogin.css">
+      <publishTime>06/14/2019 13:57:20</publishTime>
+    </File>
+    <File Include="CSS/PrintStyle.css">
+      <publishTime>06/14/2019 13:57:20</publishTime>
+    </File>
+    <File Include="CSS/screen.css">
+      <publishTime>06/14/2019 13:57:20</publishTime>
+    </File>
+    <File Include="CSS/Site.css">
+      <publishTime>06/14/2019 13:57:20</publishTime>
+    </File>
+    <File Include="CSS/stylePopup.css">
+      <publishTime>06/14/2019 13:57:19</publishTime>
+    </File>
+    <File Include="CSS/styles.css">
+      <publishTime>06/14/2019 13:57:19</publishTime>
+    </File>
+    <File Include="CSS/subModal.css">
+      <publishTime>06/14/2019 13:57:20</publishTime>
+    </File>
+    <File Include="CSS/TabPanel.css">
+      <publishTime>06/14/2019 13:57:19</publishTime>
+    </File>
+    <File Include="CSS/Validate.css">
+      <publishTime>06/14/2019 13:57:19</publishTime>
+    </File>
+    <File Include="CSS/ValidationEngine.css">
+      <publishTime>06/14/2019 13:57:20</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>06/14/2019 13:57:22</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>06/14/2019 13:57:07</publishTime>
+    </File>
+    <File Include="Images/Accouting.jpg">
+      <publishTime>06/14/2019 13:57:29</publishTime>
+    </File>
+    <File Include="Images/adobe.PNG">
+      <publishTime>06/14/2019 13:57:22</publishTime>
+    </File>
+    <File Include="Images/Arrowhead-Down-01.png">
+      <publishTime>06/14/2019 13:57:22</publishTime>
+    </File>
+    <File Include="Images/Back.gif">
+      <publishTime>06/14/2019 13:57:29</publishTime>
+    </File>
+    <File Include="Images/back.png">
+      <publishTime>06/14/2019 13:57:22</publishTime>
+    </File>
+    <File Include="Images/banyantreelogo.gif">
+      <publishTime>06/14/2019 13:57:29</publishTime>
+    </File>
+    <File Include="Images/cancel.gif">
+      <publishTime>06/14/2019 13:57:22</publishTime>
+    </File>
+    <File Include="Images/checked.gif">
+      <publishTime>06/14/2019 13:57:22</publishTime>
+    </File>
+    <File Include="Images/closebox.png">
+      <publishTime>06/14/2019 13:57:29</publishTime>
+    </File>
+    <File Include="Images/continue-button.gif">
+      <publishTime>06/14/2019 13:57:22</publishTime>
+    </File>
+    <File Include="Images/Continue....gif">
+      <publishTime>06/14/2019 13:57:22</publishTime>
+    </File>
+    <File Include="Images/Continue.gif">
+      <publishTime>06/14/2019 13:57:22</publishTime>
+    </File>
+    <File Include="Images/ContinueImage.gif">
+      <publishTime>06/14/2019 13:57:22</publishTime>
+    </File>
+    <File Include="Images/delete-1.png">
+      <publishTime>06/14/2019 13:57:22</publishTime>
+    </File>
+    <File Include="Images/edit.gif">
+      <publishTime>06/14/2019 13:57:29</publishTime>
+    </File>
+    <File Include="Images/Edit.png">
+      <publishTime>06/14/2019 13:57:22</publishTime>
+    </File>
+    <File Include="Images/excel.PNG">
+      <publishTime>06/14/2019 13:57:29</publishTime>
+    </File>
+    <File Include="Images/GEB LOGO school logo in english.jpg">
+      <publishTime>06/14/2019 13:57:29</publishTime>
+    </File>
+    <File Include="Images/help.gif">
+      <publishTime>06/14/2019 13:57:22</publishTime>
+    </File>
+    <File Include="Images/Help.png">
+      <publishTime>06/14/2019 13:57:22</publishTime>
+    </File>
+    <File Include="Images/home1.png">
+      <publishTime>06/14/2019 13:57:22</publishTime>
+    </File>
+    <File Include="Images/imageedit_2_3780843373.jpg">
+      <publishTime>06/14/2019 13:57:22</publishTime>
+    </File>
+    <File Include="Images/Insert.png">
+      <publishTime>06/14/2019 13:57:22</publishTime>
+    </File>
+    <File Include="Images/loading.gif">
+      <publishTime>06/14/2019 13:57:22</publishTime>
+    </File>
+    <File Include="Images/logout.gif">
+      <publishTime>06/14/2019 13:57:29</publishTime>
+    </File>
+    <File Include="Images/minus-icon.png">
+      <publishTime>06/14/2019 13:57:22</publishTime>
+    </File>
+    <File Include="Images/NAVCHETAN LOGO COLOUR copy.jpg">
+      <publishTime>06/14/2019 13:57:22</publishTime>
+    </File>
+    <File Include="Images/newCon1.gif">
+      <publishTime>06/14/2019 13:57:29</publishTime>
+    </File>
+    <File Include="Images/next.png">
+      <publishTime>06/14/2019 13:57:22</publishTime>
+    </File>
+    <File Include="Images/NoImage-big.jpg">
+      <publishTime>06/14/2019 13:57:29</publishTime>
+    </File>
+    <File Include="Images/page-loader.gif">
+      <publishTime>06/14/2019 13:57:22</publishTime>
+    </File>
+    <File Include="Images/pageunderconstruction.jpg">
+      <publishTime>06/14/2019 13:57:22</publishTime>
+    </File>
+    <File Include="Images/plus.png">
+      <publishTime>06/14/2019 13:57:29</publishTime>
+    </File>
+    <File Include="Images/Print.png">
+      <publishTime>06/14/2019 13:57:22</publishTime>
+    </File>
+    <File Include="Images/restricted.png">
+      <publishTime>06/14/2019 13:57:29</publishTime>
+    </File>
+    <File Include="Images/RR.png">
+      <publishTime>06/14/2019 13:57:29</publishTime>
+    </File>
+    <File Include="Images/Save.png">
+      <publishTime>06/14/2019 13:57:22</publishTime>
+    </File>
+    <File Include="Images/school logo.jpg">
+      <publishTime>06/14/2019 13:57:22</publishTime>
+    </File>
+    <File Include="Images/search-white.png">
+      <publishTime>06/14/2019 13:57:29</publishTime>
+    </File>
+    <File Include="Images/SKMLogo.jpg">
+      <publishTime>06/14/2019 13:57:22</publishTime>
+    </File>
+    <File Include="Images/so1.png">
+      <publishTime>06/14/2019 13:57:22</publishTime>
+    </File>
+    <File Include="Images/Status.png">
+      <publishTime>06/14/2019 13:57:28</publishTime>
+    </File>
+    <File Include="Images/unchecked.gif">
+      <publishTime>06/14/2019 13:57:29</publishTime>
+    </File>
+    <File Include="Images/UP.png">
+      <publishTime>06/14/2019 13:57:22</publishTime>
+    </File>
+    <File Include="Images/Update.ico">
+      <publishTime>06/14/2019 13:57:22</publishTime>
+    </File>
+    <File Include="Images/userRights.gif">
+      <publishTime>06/14/2019 13:57:29</publishTime>
+    </File>
+    <File Include="Images/WebsiteUnderConstruction.gif">
+      <publishTime>06/14/2019 13:57:22</publishTime>
+    </File>
+    <File Include="Images/word.PNG">
+      <publishTime>06/14/2019 13:57:22</publishTime>
+    </File>
+    <File Include="JS/AjaxFileupload.js">
+      <publishTime>06/14/2019 13:57:19</publishTime>
+    </File>
+    <File Include="JS/common.js">
+      <publishTime>06/14/2019 13:57:19</publishTime>
+    </File>
+    <File Include="JS/CommonFunction.js">
+      <publishTime>06/14/2019 13:57:19</publishTime>
+    </File>
+    <File Include="JS/CommonJs.js">
+      <publishTime>06/14/2019 13:57:19</publishTime>
+    </File>
+    <File Include="JS/ddaccordian.js">
+      <publishTime>06/14/2019 13:57:19</publishTime>
+    </File>
+    <File Include="JS/ddmenu.js">
+      <publishTime>06/14/2019 13:57:19</publishTime>
+    </File>
+    <File Include="JS/DOMAlert.js">
+      <publishTime>06/14/2019 13:57:19</publishTime>
+    </File>
+    <File Include="JS/gridviewScroll.min.js">
+      <publishTime>06/14/2019 13:57:19</publishTime>
+    </File>
+    <File Include="JS/Jquery-1.10.2.js">
+      <publishTime>06/14/2019 13:57:19</publishTime>
+    </File>
+    <File Include="JS/jquery-1.3.2.js">
+      <publishTime>06/14/2019 13:57:19</publishTime>
+    </File>
+    <File Include="JS/jquery-1.7.1.min.js">
+      <publishTime>06/14/2019 13:57:19</publishTime>
+    </File>
+    <File Include="JS/jquery-1.8.3.js">
+      <publishTime>06/14/2019 13:57:19</publishTime>
+    </File>
+    <File Include="JS/jquery-1.9.1.js">
+      <publishTime>06/14/2019 13:57:19</publishTime>
+    </File>
+    <File Include="JS/jquery-ui.js">
+      <publishTime>06/14/2019 13:57:19</publishTime>
+    </File>
+    <File Include="JS/jquery.js">
+      <publishTime>06/14/2019 13:57:19</publishTime>
+    </File>
+    <File Include="JS/jquery.min.js">
+      <publishTime>06/14/2019 13:57:19</publishTime>
+    </File>
+    <File Include="JS/jquery.min.js.js">
+      <publishTime>06/14/2019 13:57:19</publishTime>
+    </File>
+    <File Include="JS/jquery.quicksearch.js">
+      <publishTime>06/14/2019 13:57:19</publishTime>
+    </File>
+    <File Include="JS/jquery.validate.js">
+      <publishTime>06/14/2019 13:57:19</publishTime>
+    </File>
+    <File Include="JS/ModalPopupWindow.js">
+      <publishTime>06/14/2019 13:57:19</publishTime>
+    </File>
+    <File Include="JS/scriptPopup.js">
+      <publishTime>06/14/2019 13:57:19</publishTime>
+    </File>
+    <File Include="JS/ScriptPrint.js">
+      <publishTime>06/14/2019 13:57:19</publishTime>
+    </File>
+    <File Include="JS/subModal.js">
+      <publishTime>06/14/2019 13:57:19</publishTime>
+    </File>
+    <File Include="JS/ValidationEngine-en.js">
+      <publishTime>06/14/2019 13:57:19</publishTime>
+    </File>
+    <File Include="JS/ValidationEngine.js">
+      <publishTime>06/14/2019 13:57:19</publishTime>
+    </File>
+    <File Include="JS/WaterMark.min.js">
+      <publishTime>06/14/2019 13:57:19</publishTime>
+    </File>
+    <File Include="Leave/ApplyLeave.aspx">
+      <publishTime>06/14/2019 13:57:22</publishTime>
+    </File>
+    <File Include="Leave/ApproveLeave.aspx">
+      <publishTime>06/14/2019 13:57:20</publishTime>
+    </File>
+    <File Include="Leave/Leave.aspx">
+      <publishTime>06/14/2019 13:57:20</publishTime>
+    </File>
+    <File Include="Leave/LeaveApprovalReport.aspx">
+      <publishTime>06/14/2019 13:57:22</publishTime>
+    </File>
+    <File Include="Leave/LeaveTemplate.aspx">
+      <publishTime>06/14/2019 13:57:20</publishTime>
+    </File>
+    <File Include="Leave/SchoolApproveLeave.aspx">
+      <publishTime>06/14/2019 13:57:22</publishTime>
+    </File>
+    <File Include="Master/SchoolMain.Master">
+      <publishTime>06/17/2019 10:37:28</publishTime>
+    </File>
+    <File Include="Master/TrustMain.Master">
+      <publishTime>06/14/2019 17:06:21</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>06/14/2019 13:57:05</publishTime>
+    </File>
+    <File Include="PayRoll/EmployeePayItem.aspx">
+      <publishTime>06/14/2019 13:57:04</publishTime>
+    </File>
+    <File Include="PayRoll/EmployeePayrollReport.aspx">
+      <publishTime>06/14/2019 13:57:05</publishTime>
+    </File>
+    <File Include="PayRoll/GeneratePaySlip.aspx">
+      <publishTime>06/14/2019 13:57:04</publishTime>
+    </File>
+    <File Include="PayRoll/LeaveMaster.aspx">
+      <publishTime>06/14/2019 13:57:05</publishTime>
+    </File>
+    <File Include="PayRoll/PayItem.aspx">
+      <publishTime>06/14/2019 13:57:04</publishTime>
+    </File>
+    <File Include="PayRoll/PayItemMaster.aspx">
+      <publishTime>06/14/2019 13:57:05</publishTime>
+    </File>
+    <File Include="PayRoll/PayItemTemplate.aspx">
+      <publishTime>06/14/2019 13:57:04</publishTime>
+    </File>
+    <File Include="PayRoll/PaySlip.aspx">
+      <publishTime>06/14/2019 13:57:05</publishTime>
+    </File>
+    <File Include="PayRoll/ProcessPayRoll.aspx">
+      <publishTime>06/14/2019 13:57:04</publishTime>
+    </File>
+    <File Include="PayRoll/TrustPayItemTemplate.aspx">
+      <publishTime>06/14/2019 13:57:05</publishTime>
+    </File>
+    <File Include="PayRoll/YearlyEmployeeReport.aspx">
+      <publishTime>06/14/2019 13:57:04</publishTime>
+    </File>
+    <File Include="ReportUI/ClassWiseStudentFees.aspx">
+      <publishTime>06/14/2019 13:57:01</publishTime>
+    </File>
+    <File Include="ReportUI/CompactReport.aspx">
+      <publishTime>06/14/2019 13:57:04</publishTime>
+    </File>
+    <File Include="ReportUI/DateWiseFessReport.aspx">
+      <publishTime>06/14/2019 13:57:03</publishTime>
+    </File>
+    <File Include="ReportUI/DEO_Patrak_2.aspx">
+      <publishTime>06/14/2019 13:57:03</publishTime>
+    </File>
+    <File Include="ReportUI/DEO_Patrak_3.aspx">
+      <publishTime>06/14/2019 13:57:03</publishTime>
+    </File>
+    <File Include="ReportUI/EmployeeCategoryWise.aspx">
+      <publishTime>06/14/2019 13:57:03</publishTime>
+    </File>
+    <File Include="ReportUI/EmployeeList.aspx">
+      <publishTime>06/14/2019 13:57:04</publishTime>
+    </File>
+    <File Include="ReportUI/EmployeeMonthlyAttendance.aspx">
+      <publishTime>06/14/2019 13:57:01</publishTime>
+    </File>
+    <File Include="ReportUI/EmployeeWiseAttendance.aspx">
+      <publishTime>06/17/2019 15:25:15</publishTime>
+    </File>
+    <File Include="ReportUI/EmpoyeeInformationReport.aspx">
+      <publishTime>06/14/2019 13:57:03</publishTime>
+    </File>
+    <File Include="ReportUI/FeeCollectionClassWise.aspx">
+      <publishTime>06/14/2019 13:57:03</publishTime>
+    </File>
+    <File Include="ReportUI/FeeCollectionClassWiseForSchool.aspx">
+      <publishTime>06/14/2019 13:57:03</publishTime>
+    </File>
+    <File Include="ReportUI/FeeCollectionSchoolWise.aspx">
+      <publishTime>06/14/2019 13:57:03</publishTime>
+    </File>
+    <File Include="ReportUI/FeeCollectionStudentWise.aspx">
+      <publishTime>06/14/2019 13:57:03</publishTime>
+    </File>
+    <File Include="ReportUI/FeesCollectionSchoolWiseForSchool.aspx">
+      <publishTime>06/14/2019 13:57:02</publishTime>
+    </File>
+    <File Include="ReportUI/FeesTypeReport.aspx">
+      <publishTime>06/14/2019 13:57:03</publishTime>
+    </File>
+    <File Include="ReportUI/LeaveBalance.aspx">
+      <publishTime>06/14/2019 13:57:03</publishTime>
+    </File>
+    <File Include="ReportUI/MaterialConsumption.aspx">
+      <publishTime>06/14/2019 13:57:03</publishTime>
+    </File>
+    <File Include="ReportUI/MaterialPurchase.aspx">
+      <publishTime>06/14/2019 13:57:03</publishTime>
+    </File>
+    <File Include="ReportUI/MaterialReturn.aspx">
+      <publishTime>06/14/2019 13:57:03</publishTime>
+    </File>
+    <File Include="ReportUI/MaterialStock.aspx">
+      <publishTime>06/14/2019 13:57:03</publishTime>
+    </File>
+    <File Include="ReportUI/MaterialTransferReport.aspx">
+      <publishTime>06/14/2019 13:57:02</publishTime>
+    </File>
+    <File Include="ReportUI/MaterialVandorWise.aspx">
+      <publishTime>06/14/2019 13:57:03</publishTime>
+    </File>
+    <File Include="ReportUI/RTEReport.aspx">
+      <publishTime>06/19/2019 13:31:03</publishTime>
+    </File>
+    <File Include="ReportUI/SalaryPayment.aspx">
+      <publishTime>06/14/2019 13:57:03</publishTime>
+    </File>
+    <File Include="ReportUI/SarasariReport.aspx">
+      <publishTime>06/14/2019 13:57:02</publishTime>
+    </File>
+    <File Include="ReportUI/SchoolAcoountingInfoReport.aspx">
+      <publishTime>06/14/2019 13:57:03</publishTime>
+    </File>
+    <File Include="ReportUI/SchoolEmployeeCategoryWise.aspx">
+      <publishTime>06/14/2019 13:57:03</publishTime>
+    </File>
+    <File Include="ReportUI/SchoolEmployeeList.aspx">
+      <publishTime>06/14/2019 13:57:03</publishTime>
+    </File>
+    <File Include="ReportUI/SchoolEmpoyeeInformationReport.aspx">
+      <publishTime>06/18/2019 15:39:26</publishTime>
+    </File>
+    <File Include="ReportUI/SchoolInformation.aspx">
+      <publishTime>06/14/2019 13:57:03</publishTime>
+    </File>
+    <File Include="ReportUI/SchoolInformationForSchool.aspx">
+      <publishTime>06/14/2019 13:57:01</publishTime>
+    </File>
+    <File Include="ReportUI/SchoolLeaveBalance.aspx">
+      <publishTime>06/14/2019 13:57:03</publishTime>
+    </File>
+    <File Include="ReportUI/SchoolList.aspx">
+      <publishTime>06/14/2019 13:57:04</publishTime>
+    </File>
+    <File Include="ReportUI/SchoolMaterialConsumption.aspx">
+      <publishTime>06/14/2019 13:57:03</publishTime>
+    </File>
+    <File Include="ReportUI/SchoolMaterialPurchase.aspx">
+      <publishTime>06/14/2019 13:57:03</publishTime>
+    </File>
+    <File Include="ReportUI/SchoolMaterialReturn.aspx">
+      <publishTime>06/14/2019 13:57:03</publishTime>
+    </File>
+    <File Include="ReportUI/SchoolMaterialStock.aspx">
+      <publishTime>06/14/2019 13:57:04</publishTime>
+    </File>
+    <File Include="ReportUI/SchoolMaterialTransfer.aspx">
+      <publishTime>06/14/2019 13:57:03</publishTime>
+    </File>
+    <File Include="ReportUI/SchoolMaterialVandorWise.aspx">
+      <publishTime>06/14/2019 13:57:03</publishTime>
+    </File>
+    <File Include="ReportUI/SchoolSarasariReport.aspx">
+      <publishTime>06/14/2019 13:57:03</publishTime>
+    </File>
+    <File Include="ReportUI/SchoolStudentCategoryWise.aspx">
+      <publishTime>06/14/2019 13:57:04</publishTime>
+    </File>
+    <File Include="ReportUI/SchoolVendorList.aspx">
+      <publishTime>06/14/2019 13:57:04</publishTime>
+    </File>
+    <File Include="ReportUI/StudentAttendenceReport.aspx">
+      <publishTime>06/14/2019 13:57:02</publishTime>
+    </File>
+    <File Include="ReportUI/StudentCategoryWise.aspx">
+      <publishTime>06/14/2019 13:57:03</publishTime>
+    </File>
+    <File Include="ReportUI/StudentDEOReport.aspx">
+      <publishTime>06/14/2019 13:57:03</publishTime>
+    </File>
+    <File Include="ReportUI/StudentList.aspx">
+      <publishTime>06/14/2019 13:57:03</publishTime>
+    </File>
+    <File Include="ReportUI/TeacherWiseTimeTable.aspx">
+      <publishTime>06/14/2019 13:57:03</publishTime>
+    </File>
+    <File Include="ReportUI/test.aspx">
+      <publishTime>06/14/2019 13:57:03</publishTime>
+    </File>
+    <File Include="ReportUI/TimeTableClassWise.aspx">
+      <publishTime>06/14/2019 13:57:02</publishTime>
+    </File>
+    <File Include="ReportUI/TimeTableTeacherWise.aspx">
+      <publishTime>06/14/2019 13:57:03</publishTime>
+    </File>
+    <File Include="ReportUI/TrustEmployeeMonthlyAttendance.aspx">
+      <publishTime>06/14/2019 13:57:03</publishTime>
+    </File>
+    <File Include="ReportUI/TrustEmployeeWiseAttendance.aspx">
+      <publishTime>06/14/2019 13:57:03</publishTime>
+    </File>
+    <File Include="ReportUI/VendorList.aspx">
+      <publishTime>06/14/2019 13:57:04</publishTime>
+    </File>
+    <File Include="ReportUI/YearWiseFeesCollectionReport.aspx">
+      <publishTime>06/14/2019 13:57:03</publishTime>
+    </File>
+    <File Include="Result/ClassWiseResultReport.aspx">
+      <publishTime>06/14/2019 13:57:19</publishTime>
+    </File>
+    <File Include="Result/ExamConfiguration.aspx">
+      <publishTime>06/14/2019 13:57:19</publishTime>
+    </File>
+    <File Include="Result/ExamConfigViewList.aspx">
+      <publishTime>06/14/2019 13:57:19</publishTime>
+    </File>
+    <File Include="Result/ExamResultReport.aspx">
+      <publishTime>06/17/2019 16:04:34</publishTime>
+    </File>
+    <File Include="Result/FinalResult.aspx">
+      <publishTime>06/14/2019 13:57:19</publishTime>
+    </File>
+    <File Include="Result/GradeWiseResultReport.aspx">
+      <publishTime>06/18/2019 14:44:54</publishTime>
+    </File>
+    <File Include="Result/StudentExamMarks.aspx">
+      <publishTime>06/14/2019 13:57:19</publishTime>
+    </File>
+    <File Include="RTE/DivWise.aspx">
+      <publishTime>06/20/2019 16:10:45</publishTime>
+    </File>
+    <File Include="RTE/Gr_NoWise.aspx">
+      <publishTime>06/20/2019 17:07:30</publishTime>
+    </File>
+    <File Include="RTE/StdWise.aspx">
+      <publishTime>06/21/2019 13:13:31</publishTime>
+    </File>
+    <File Include="RTE/StudentNameWise.aspx">
+      <publishTime>06/20/2019 17:07:54</publishTime>
+    </File>
+    <File Include="RTE/YearWise.aspx">
+      <publishTime>06/20/2019 16:58:46</publishTime>
+    </File>
+    <File Include="Script/jquery-1.3.2-vsdoc2.js">
+      <publishTime>06/14/2019 13:57:10</publishTime>
+    </File>
+    <File Include="Script/jquery-1.3.2.js">
+      <publishTime>06/14/2019 13:57:08</publishTime>
+    </File>
+    <File Include="Script/jquery.validate.js">
+      <publishTime>06/14/2019 13:57:09</publishTime>
+    </File>
+    <File Include="Script/jquery.validate.wrapper.js">
+      <publishTime>06/14/2019 13:57:10</publishTime>
+    </File>
+    <File Include="UserLogin.aspx">
+      <publishTime>06/14/2019 13:57:04</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>06/21/2019 15:09:53</publishTime>
+    </File>
+    <File Include="WebcamResources/com/adobe/images/BitString.as">
+      <publishTime>06/14/2019 13:57:20</publishTime>
+    </File>
+    <File Include="WebcamResources/com/adobe/images/JPGEncoder.as">
+      <publishTime>06/14/2019 13:57:20</publishTime>
+    </File>
+    <File Include="WebcamResources/com/adobe/images/PNGEncoder.as">
+      <publishTime>06/14/2019 13:57:20</publishTime>
+    </File>
+    <File Include="WebcamResources/com/dynamicflash/util/Base64.as">
+      <publishTime>06/14/2019 13:57:20</publishTime>
+    </File>
+    <File Include="WebcamResources/com/dynamicflash/util/tests/Base64Test.as">
+      <publishTime>06/14/2019 13:57:20</publishTime>
+    </File>
+    <File Include="WebcamResources/save_picture.fla">
+      <publishTime>06/14/2019 13:57:20</publishTime>
+    </File>
+    <File Include="WebcamResources/save_picture.swf">
+      <publishTime>06/14/2019 13:57:20</publishTime>
+    </File>
+    <File Include="XMLFile1.xml">
+      <publishTime>06/14/2019 13:57:04</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

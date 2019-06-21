@@ -1,0 +1,587 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2077559D-DE95-4009-A0E3-020BE2161AFE}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CGSML_MIS</RootNamespace>
+    <AssemblyName>CGSML_MIS</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=15.1.4.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <HintPath>..\packages\AjaxControlToolkit.15.1.4.0\lib\net40\AjaxControlToolkit.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="AutoMapper, Version=4.2.0.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoMapper.4.2.0\lib\net45\AutoMapper.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="CGSML_MIS.BusinessServices">
+      <HintPath>..\CGSML_MIS.BusinessServices\bin\Debug\CGSML_MIS.BusinessServices.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.5.8.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\iTextSharp.5.5.8\lib\itextsharp.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.5\lib\net45-full\log4net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.8.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="clientui\CollectionDashboard.aspx" />
+    <Content Include="clientui\Customer.aspx" />
+    <Content Include="clientui\CustomerBalance.aspx" />
+    <Content Include="clientui\CustomerDashboard.aspx" />
+    <Content Include="clientui\Dashboard.aspx" />
+    <Content Include="clientui\Dashboard1.aspx" />
+    <Content Include="clientui\DirectBankReceipt.aspx" />
+    <Content Include="clientui\FormFee.aspx" />
+    <Content Include="clientui\GasBillCommercial.aspx" />
+    <Content Include="clientui\GasBillData.aspx" />
+    <Content Include="clientui\GasBillDomestic.aspx" />
+    <Content Include="clientui\GasBillIndustrial.aspx" />
+    <Content Include="clientui\GasBillReceipt.aspx" />
+    <Content Include="clientui\GenerateReceipt.aspx" />
+    <Content Include="clientui\InstallationLabourBill.aspx" />
+    <Content Include="clientui\Item.aspx" />
+    <Content Include="clientui\MeterMaster.aspx" />
+    <Content Include="clientui\MeterWiseSlot.aspx" />
+    <Content Include="clientui\Organisation.aspx" />
+    <Content Include="clientui\Receipt.aspx" />
+    <Content Include="clientui\OutStandingDashboard.aspx" />
+    <Content Include="clientui\Remark.aspx" />
+    <Content Include="clientui\ReportOutput.aspx" />
+    <Content Include="clientui\ReportParameters.aspx" />
+    <Content Include="clientui\Rights.aspx" />
+    <Content Include="clientui\Role.aspx" />
+    <Content Include="clientui\Slot.aspx" />
+    <Content Include="clientui\UpdateCustomerNo.aspx" />
+    <Content Include="codejs\controls\AmountToWordsConverter.js" />
+    <Content Include="codejs\controls\AutoComplete.js" />
+    <Content Include="codejs\controls\custom.js" />
+    <Content Include="codejs\controls\datePicker.js" />
+    <Content Include="codejs\controls\validation.js" />
+    <Content Include="codejs\Customer.js" />
+    <Content Include="codejs\CustomerBalance.js" />
+    <Content Include="codejs\FormFee.js" />
+    <Content Include="codejs\GasBillCommercial.js" />
+    <Content Include="codejs\GasBillData.js" />
+    <Content Include="codejs\GasBillDomestic.js" />
+    <Content Include="codejs\GasBillIndustrial.js" />
+    <Content Include="codejs\GasBillReceipt.js" />
+    <Content Include="codejs\GenerateReceipt.js" />
+    <Content Include="codejs\InstallationLabourBill.js" />
+    <Content Include="codejs\jquery-auth-token.js" />
+    <Content Include="codejs\Login.js" />
+    <Content Include="codejs\Meter.js" />
+    <Content Include="codejs\MeterWiseSlot.js" />
+    <Content Include="codejs\Slot.js" />
+    <Content Include="codejs\UpdateCustomerNo.js" />
+    <Content Include="css\AdminLTE.css" />
+    <Content Include="css\bootstrap-datepicker.min.css" />
+    <Content Include="css\bootstrap-theme.min.css" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\bootstrap3-wysihtml5.min.css" />
+    <Content Include="css\daterangepicker-bs3.css" />
+    <Content Include="css\font-awesome.min.css" />
+    <Content Include="css\fullcalendar.css" />
+    <Content Include="css\ionicons.min.css" />
+    <Content Include="css\jquery-jvectormap-1.2.2.css" />
+    <Content Include="css\jquery-ui.css" />
+    <Content Include="css\morris.css" />
+    <Content Include="css\PrintStyle.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="images\CGas.jpg" />
+    <Content Include="images\CGSML.jpg" />
+    <Content Include="images\CGSML.png" />
+    <Content Include="images\edit.gif" />
+    <Content Include="images\loader1.gif" />
+    <Content Include="images\adobe.PNG" />
+    <Content Include="images\banyantreelogo.gif" />
+    <Content Include="images\banyantreelogo.png" />
+    <Content Include="images\cancel.png" />
+    <Content Include="images\cgsmLogo.gif" />
+    <Content Include="images\CGSML_team.png" />
+    <Content Include="images\delete-1.png" />
+    <Content Include="images\Delete.png" />
+    <Content Include="images\Edit.png" />
+    <Content Include="images\excel.PNG" />
+    <Content Include="images\eye-icon.png" />
+    <Content Include="images\favicon-96x96.png" />
+    <Content Include="images\loader.gif" />
+    <Content Include="images\NoImage-big.jpg" />
+    <Content Include="images\print.png" />
+    <Content Include="images\Return.png" />
+    <Content Include="images\unauthorised.png" />
+    <Content Include="images\word.PNG" />
+    <Content Include="js\bootstrap-datepicker.min.js" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\CommonFunction.js" />
+    <Content Include="js\CommonJs.js" />
+    <Content Include="js\jquery-1.9.1.js" />
+    <Content Include="js\jquery-1.9.1.min.js" />
+    <Content Include="js\jquery-ui.js" />
+    <Content Include="js\jquery.quicksearch.js" />
+    <Content Include="js\MenuVisibility.js" />
+    <Content Include="js\ScriptPrint.js" />
+    <None Include="Properties\PublishProfiles\cg.pubxml" />
+    <None Include="Properties\PublishProfiles\CGSML.pubxml" />
+    <None Include="Properties\PublishProfiles\CGSML_30_06_2016.pubxml" />
+    <None Include="Scripts\jquery-1.4.4-vsdoc.js" />
+    <Content Include="reportui\CustomerBalanceStatement.aspx" />
+    <Content Include="reportui\CustomerHistoryinDetail.aspx" />
+    <Content Include="reportui\FinalBillReport.aspx" />
+    <Content Include="reportui\GasBillHistory.aspx" />
+    <Content Include="reportui\GasBillReceipts.aspx" />
+    <Content Include="reportui\InstallationBill.aspx" />
+    <Content Include="reportui\LabourBill.aspx" />
+    <Content Include="reportui\ListOfDirectBankReceits.aspx" />
+    <Content Include="reportui\ListOfReceipts.aspx" />
+    <Content Include="Scripts\jquery-1.4.4.js" />
+    <Content Include="Scripts\jquery-1.4.4.min.js" />
+    <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="UnauthorisedUI\UnauthorisedAccess.aspx" />
+    <Content Include="userControl\SearchUserControl.ascx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="_WebServices\WebService2.asmx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="clientui\CollectionDashboard.aspx.cs">
+      <DependentUpon>CollectionDashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="clientui\CollectionDashboard.aspx.designer.cs">
+      <DependentUpon>CollectionDashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="clientui\Customer.aspx.cs">
+      <DependentUpon>Customer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="clientui\Customer.aspx.designer.cs">
+      <DependentUpon>Customer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="clientui\CustomerBalance.aspx.cs">
+      <DependentUpon>CustomerBalance.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="clientui\CustomerDashboard.aspx.cs">
+      <DependentUpon>CustomerDashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="clientui\CustomerDashboard.aspx.designer.cs">
+      <DependentUpon>CustomerDashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="clientui\NewCustomerDashboard.aspx.cs">
+      <DependentUpon>NewCustomerDashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="clientui\NewCustomerDashboard.aspx.designer.cs">
+      <DependentUpon>NewCustomerDashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="clientui\CustomerHistory1.aspx.cs">
+      <DependentUpon>CustomerHistory1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="clientui\CustomerBalance.aspx.designer.cs">
+      <DependentUpon>CustomerBalance.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="clientui\Dashboard.aspx.cs">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="clientui\Dashboard.aspx.designer.cs">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="clientui\Dashboard1.aspx.cs">
+      <DependentUpon>Dashboard1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="clientui\Dashboard1.aspx.designer.cs">
+      <DependentUpon>Dashboard1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="clientui\DirectBankReceipt.aspx.cs">
+      <DependentUpon>DirectBankReceipt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="clientui\DirectBankReceipt.aspx.designer.cs">
+      <DependentUpon>DirectBankReceipt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="clientui\FormFee.aspx.cs">
+      <DependentUpon>FormFee.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="clientui\FormFee.aspx.designer.cs">
+      <DependentUpon>FormFee.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="clientui\GasBillCommercial.aspx.cs">
+      <DependentUpon>GasBillCommercial.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="clientui\GasBillCommercial.aspx.designer.cs">
+      <DependentUpon>GasBillCommercial.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="clientui\GasBillData.aspx.cs">
+      <DependentUpon>GasBillData.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="clientui\GasBillData.aspx.designer.cs">
+      <DependentUpon>GasBillData.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="clientui\GasBillDomestic.aspx.cs">
+      <DependentUpon>GasBillDomestic.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="clientui\GasBillDomestic.aspx.designer.cs">
+      <DependentUpon>GasBillDomestic.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="clientui\GasBillIndustrial.aspx.cs">
+      <DependentUpon>GasBillIndustrial.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="clientui\GasBillIndustrial.aspx.designer.cs">
+      <DependentUpon>GasBillIndustrial.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="clientui\GasBillReceipt.aspx.cs">
+      <DependentUpon>GasBillReceipt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="clientui\GasBillReceipt.aspx.designer.cs">
+      <DependentUpon>GasBillReceipt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="clientui\GenerateReceipt.aspx.cs">
+      <DependentUpon>GenerateReceipt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="clientui\GenerateReceipt.aspx.designer.cs">
+      <DependentUpon>GenerateReceipt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="clientui\InstallationLabourBill.aspx.cs">
+      <DependentUpon>InstallationLabourBill.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="clientui\InstallationLabourBill.aspx.designer.cs">
+      <DependentUpon>InstallationLabourBill.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="clientui\Item.aspx.cs">
+      <DependentUpon>Item.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="clientui\Item.aspx.designer.cs">
+      <DependentUpon>Item.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="clientui\MeterMaster.aspx.cs">
+      <DependentUpon>MeterMaster.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="clientui\MeterMaster.aspx.designer.cs">
+      <DependentUpon>MeterMaster.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="clientui\MeterWiseSlot.aspx.cs">
+      <DependentUpon>MeterWiseSlot.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="clientui\MeterWiseSlot.aspx.designer.cs">
+      <DependentUpon>MeterWiseSlot.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="clientui\Organisation.aspx.cs">
+      <DependentUpon>Organisation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="clientui\Organisation.aspx.designer.cs">
+      <DependentUpon>Organisation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="clientui\Receipt.aspx.cs">
+      <DependentUpon>Receipt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="clientui\Receipt.aspx.designer.cs">
+      <DependentUpon>Receipt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="clientui\OutStandingDashboard.aspx.cs">
+      <DependentUpon>OutStandingDashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="clientui\OutStandingDashboard.aspx.designer.cs">
+      <DependentUpon>OutStandingDashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="clientui\Remark.aspx.cs">
+      <DependentUpon>Remark.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="clientui\Remark.aspx.designer.cs">
+      <DependentUpon>Remark.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="clientui\ReportOutput.aspx.cs">
+      <DependentUpon>ReportOutput.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="clientui\ReportOutput.aspx.designer.cs">
+      <DependentUpon>ReportOutput.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="clientui\ReportParameters.aspx.cs">
+      <DependentUpon>ReportParameters.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="clientui\ReportParameters.aspx.designer.cs">
+      <DependentUpon>ReportParameters.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="clientui\Rights.aspx.cs">
+      <DependentUpon>Rights.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="clientui\Rights.aspx.designer.cs">
+      <DependentUpon>Rights.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="clientui\Role.aspx.cs">
+      <DependentUpon>Role.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="clientui\Role.aspx.designer.cs">
+      <DependentUpon>Role.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="clientui\Slot.aspx.cs">
+      <DependentUpon>Slot.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="clientui\Slot.aspx.designer.cs">
+      <DependentUpon>Slot.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="clientui\UpdateCustomerNo.aspx.cs">
+      <DependentUpon>UpdateCustomerNo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="clientui\UpdateCustomerNo.aspx.designer.cs">
+      <DependentUpon>UpdateCustomerNo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="master\MainMaster.Master.cs">
+      <DependentUpon>MainMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="master\MainMaster.Master.designer.cs">
+      <DependentUpon>MainMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="PageBase.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="reportui\CustomerBalanceStatement.aspx.cs">
+      <DependentUpon>CustomerBalanceStatement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportui\CustomerBalanceStatement.aspx.designer.cs">
+      <DependentUpon>CustomerBalanceStatement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportui\CustomerHistoryinDetail.aspx.cs">
+      <DependentUpon>CustomerHistoryinDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportui\CustomerHistoryinDetail.aspx.designer.cs">
+      <DependentUpon>CustomerHistoryinDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportui\FinalBillReport.aspx.cs">
+      <DependentUpon>FinalBillReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportui\FinalBillReport.aspx.designer.cs">
+      <DependentUpon>FinalBillReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportui\GasBillHistory.aspx.cs">
+      <DependentUpon>GasBillHistory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportui\GasBillHistory.aspx.designer.cs">
+      <DependentUpon>GasBillHistory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportui\GasBillReceipts.aspx.cs">
+      <DependentUpon>GasBillReceipts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportui\GasBillReceipts.aspx.designer.cs">
+      <DependentUpon>GasBillReceipts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportui\InstallationBill.aspx.cs">
+      <DependentUpon>InstallationBill.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportui\InstallationBill.aspx.designer.cs">
+      <DependentUpon>InstallationBill.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportui\LabourBill.aspx.cs">
+      <DependentUpon>LabourBill.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportui\LabourBill.aspx.designer.cs">
+      <DependentUpon>LabourBill.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportui\ListOfDirectBankReceits.aspx.cs">
+      <DependentUpon>ListOfDirectBankReceits.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportui\ListOfDirectBankReceits.aspx.designer.cs">
+      <DependentUpon>ListOfDirectBankReceits.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reportui\ListOfReceipts.aspx.cs">
+      <DependentUpon>ListOfReceipts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reportui\ListOfReceipts.aspx.designer.cs">
+      <DependentUpon>ListOfReceipts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UnauthorisedUI\UnauthorisedAccess.aspx.cs">
+      <DependentUpon>UnauthorisedAccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UnauthorisedUI\UnauthorisedAccess.aspx.designer.cs">
+      <DependentUpon>UnauthorisedAccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="userControl\SearchUserControl.ascx.cs">
+      <DependentUpon>SearchUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="userControl\SearchUserControl.ascx.designer.cs">
+      <DependentUpon>SearchUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="_WebServices\WebService2.asmx.cs">
+      <DependentUpon>WebService2.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+    <Content Include="master\MainMaster.Master" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="Properties\PublishProfiles\CGSML_MIS.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CGSML_MIS.Bl\CGSML_MIS.Bl.csproj">
+      <Project>{e61015de-aaae-440d-b672-358e04a12620}</Project>
+      <Name>CGSML_MIS.Bl</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CGSML_MIS.Bo\CGSML_MIS.BO.csproj">
+      <Project>{f830da03-c8f8-4985-8114-7276e3e69ef8}</Project>
+      <Name>CGSML_MIS.BO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CGSML_MIS.BusinessEntities\CGSML_MIS.BusinessEntities.csproj">
+      <Project>{B3D99A11-1F7E-4DA1-A572-9AC72DFEB97E}</Project>
+      <Name>CGSML_MIS.BusinessEntities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CGSML_MIS.Common\CGSML_MIS.Common.csproj">
+      <Project>{5108b60a-0e4d-4f84-a8ed-9aa3e6e719e9}</Project>
+      <Name>CGSML_MIS.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CGSML_MIS.DataAccess\CGSML_MIS.DataAccess.csproj">
+      <Project>{95ab730f-d27d-435b-92b8-eca2cd0ac29d}</Project>
+      <Name>CGSML_MIS.DataAccess</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:10935/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
